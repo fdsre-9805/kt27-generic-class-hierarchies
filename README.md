@@ -16,8 +16,8 @@
 | Действие | Ожидаемый результат |
 |---|---|
 | StringContainer с ["привет", "мир"], PrintAllUpper() | выводит ПРИВЕТ, МИР |
-| CountingContainer<int>, три вызова Add | Count == 3, TotalAdded == 3 |
-| CountingContainer<string>, два вызова Add | Count == 2, TotalAdded == 2, независимо от предыдущего экземпляра |
+| CountingContainer&lt;int&gt;, три вызова Add | Count == 3, TotalAdded == 3 |
+| CountingContainer&lt;string&gt;, два вызова Add | Count == 2, TotalAdded == 2, независимо от предыдущего экземпляра |
 
 ## Запуск
 
